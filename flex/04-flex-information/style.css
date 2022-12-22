@@ -1,7 +1,23 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
+.title{
+  margin-bottom: 32px;
+}
+.flex-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card{
+  width: 200px;
+  text-align: center;
+  margin: 0px 52px;
+}
 img {
   width: 100px;
   height: 100px;
